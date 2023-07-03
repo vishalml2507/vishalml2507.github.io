@@ -1,20 +1,13 @@
-/* Webpixels CSS */
-/* Utility and component-centric Design System based on Bootstrap for fast, responsive UI development */
-/* URL: https://github.com/webpixels/css */
-
-@import url(https://unpkg.com/@webpixels/css@1.1.5/dist/index.css);
-
-/* Bootstrap Icons */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css");
-
-.h4 {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #5c6bc0; 
-    font-size: 30px;
-    margin-top:64px;;
-  }
-  
-  .h4 span {
-    color: #dfdeee;
-    font-weight: lighter;
-  }
+body {
+	padding-top: 30px;
+}
+.product {
+	margin-bottom: 30px;
+}
+.product-inner {
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	padding: 10px;
+}
+.product img {
+	margin-bottom: 10px;
+}
