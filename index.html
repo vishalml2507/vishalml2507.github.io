@@ -1,59 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Product Search / Filter</title>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
-
+    <title>Gurukul</title>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="container">
-	<div class="row" id="search">
-		<form id="search-form" action="" method="POST" enctype="multipart/form-data">
-			<div class="form-group col-xs-9">
-				<input class="form-control" type="text" placeholder="Search" />
-			</div>
-			<div class="form-group col-xs-3">
-				<button type="submit" class="btn btn-block btn-primary">Search</button>
-			</div>
-		</form>
-	</div>
-	<div class="row" id="filter">
-		<form>
-			<div class="form-group col-sm-3 col-xs-6">
-				<select data-filter="make" class="filter-make filter form-control">
-					<option value="">Select Make</option>
-					<option value="">Show All</option>
-				</select>
-			</div>
-			<div class="form-group col-sm-3 col-xs-6">
-				<select data-filter="model" class="filter-model filter form-control">
-					<option value="">Select Model</option>
-					<option value="">Show All</option>
-				</select>
-			</div>
-			<div class="form-group col-sm-3 col-xs-6">
-				<select data-filter="type" class="filter-type filter form-control">
-					<option value="">Select Type</option>
-					<option value="">Show All</option>
-				</select>
-			</div>
-			<div class="form-group col-sm-3 col-xs-6">
-				<select data-filter="price" class="filter-price filter form-control">
-					<option value="">Select Price Range</option>
-					<option value="">Show All</option>
-				</select>
-			</div>
-		</form>
-	</div>
-	<div class="row" id="products">
-		
-	</div>
-</div>
-<!-- partial -->
-  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script><script  src="./script.js"></script>
-
+    <div class="home">
+        <h1>Welcome to Gurukul</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Study Materials</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Finance</a></li>
+                <li><a href="#">Job & Hire</a></li>
+                <li><a href="#">Apply</a></li>
+                <li><a href="#">Motive</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="about">
+            <h2>What is Gurukul?</h2>
+            <p>Gurukul is a place of learning where students receive education in a traditional and holistic manner. It focuses on imparting knowledge, values, and life skills to help students become well-rounded individuals.</p>
+        </div>
+        <div class="photos">
+            <h2>Event Photos</h2>
+            <div class="gallery">
+                <img src="event1.jpg" alt="Event 1">
+                <img src="event2.jpg" alt="Event 2">
+                <img src="event3.jpg" alt="Event 3">
+                <img src="event4.jpg" alt="Event 4">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
